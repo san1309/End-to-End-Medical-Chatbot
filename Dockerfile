@@ -12,6 +12,8 @@ RUN pip install --upgrade pip && \
 # Copy project files
 COPY . .
 
+ENV PYTHONPATH=/app/src
+
 EXPOSE 8080
 
 CMD ["python", "app.py"]
