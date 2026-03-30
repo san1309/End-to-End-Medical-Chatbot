@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import os
-from medical_chatbot.helper import load_pdf_file, filter_to_minimal_docs, text_split, download_hugging_face_embeddings
+from src.helper import load_pdf_file, filter_to_minimal_docs, text_split, download_hugging_face_embeddings
 from pinecone import Pinecone
 from pinecone import ServerlessSpec 
 from langchain_pinecone import PineconeVectorStore

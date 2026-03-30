@@ -5,6 +5,6 @@ setup(
     version="0.1.0",
     author="Sandesh Sajjanar",
     author_email="sandeshsajjanar1212@gmail.com",
-    packages=find_packages(where="src"),
-    package_dir={"": "src"},
+    packages= find_packages(),
+    intstall_requires=[]
 )
