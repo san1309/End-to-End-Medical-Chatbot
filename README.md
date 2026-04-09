@@ -12,12 +12,12 @@ This project involves building a reliable, domain-specific AI assistant designed
 #### CI/CD Pipeline: Continuous integration and deployment are automated using GitHub Actions.
 
 # Tech Stack
-AI Framework: LangChain
-Vector Database: Pinecone
-Backend: Flask (Python)
-Containerization: Docker
-CI/CD: GitHub Actions
-Cloud Platform: Amazon Web Services (AWS EC2)
+#### AI Framework: LangChain
+#### Vector Database: Pinecone
+#### Backend: Flask (Python)
+#### Containerization: Docker
+#### CI/CD: GitHub Actions
+#### Cloud Platform: Amazon Web Services (AWS EC2)
 
 
 # How to Run ?
