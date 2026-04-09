@@ -19,6 +19,9 @@ This project involves building a reliable, domain-specific AI assistant designed
 #### CI/CD: GitHub Actions
 #### Cloud Platform: Amazon Web Services (AWS EC2)
 
+ ## 🏗️ Architecture
+
+![Architecture](Medical Chatbot Architecture.png)
 
 # How to Run ?
 ### Steps:
