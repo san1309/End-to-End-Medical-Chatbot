@@ -4,12 +4,12 @@
 This project involves building a reliable, domain-specific AI assistant designed for the healthcare industry. To prevent the hallucinations common in general-purpose Large Language Models (LLMs), the system utilizes a Retrieval-Augmented Generation (RAG) architecture. This ensures the AI's answers are strictly grounded in a verified knowledge base derived from medical PDF documents.
 
 # Key Features and Workflow
-### Data Processing: Complex medical texts are processed and converted into vector embeddings.
-### Semantic Retrieval: Embeddings are stored in Pinecone, a serverless vector database, to enable ultra-fast semantic retrieval.
-### Reasoning Engine: LangChain is used to orchestrate the AI's reasoning logic.
-### Backend and UI: The AI logic is wrapped in a Flask backend and includes a user interface.
-### DevOps and Deployment: The entire application is containerized using Docker and deployed to AWS (EC2).
-### CI/CD Pipeline: Continuous integration and deployment are automated using GitHub Actions.
+#### Data Processing: Complex medical texts are processed and converted into vector embeddings.
+#### Semantic Retrieval: Embeddings are stored in Pinecone, a serverless vector database, to enable ultra-fast semantic retrieval.
+#### Reasoning Engine: LangChain is used to orchestrate the AI's reasoning logic.
+#### Backend and UI: The AI logic is wrapped in a Flask backend and includes a user interface.
+#### DevOps and Deployment: The entire application is containerized using Docker and deployed to AWS (EC2).
+#### CI/CD Pipeline: Continuous integration and deployment are automated using GitHub Actions.
 
 # Tech Stack
 AI Framework: LangChain
